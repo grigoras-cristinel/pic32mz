@@ -127,7 +127,6 @@ extern "C" {
 #define WDRV_WINC_DEVICE_SOFT_AP_EXT
 #define WDRV_WINC_DEVICE_OTA_STATUS_EXTENDED
 #define WDRV_WINC_DEVICE_URL_TYPE           unsigned char
-#define WDRV_WINC_ENABLE_BLE
 #define WDRV_WINC_DEVICE_USE_SYS_DEBUG
 /*** WiFi WINC Driver RTOS Configuration ***/
 #define DRV_WIFI_WINC_RTOS_STACK_SIZE           1024

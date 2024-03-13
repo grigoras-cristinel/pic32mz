@@ -19,29 +19,6 @@
                   <itemPath>../src/config/default/driver/winc/include/dev/wdrv_winc_gpio.h</itemPath>
                 </logicalFolder>
                 <logicalFolder name="drv" displayName="drv" projectFiles="true">
-                  <logicalFolder name="at_ble_api" displayName="at_ble_api" projectFiles="true">
-                    <itemPath>../src/config/default/driver/winc/include/drv/at_ble_api/at_ble_api.h</itemPath>
-                  </logicalFolder>
-                  <logicalFolder name="ble_stack" displayName="ble_stack" projectFiles="true">
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/htpt.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/atts_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/ble_device.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/profiles.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/gattc_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/gapm_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/smpc_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/htpt_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/error.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/interface.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/gapc_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/ll_if.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/diss_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/wifiprov_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/dbg_task.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/cmn_defs.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/event.h</itemPath>
-                    <itemPath>../src/config/default/driver/winc/include/drv/ble_stack/gattm_task.h</itemPath>
-                  </logicalFolder>
                   <logicalFolder name="bsp" displayName="bsp" projectFiles="true">
                     <itemPath>../src/config/default/driver/winc/include/drv/bsp/nm_bsp.h</itemPath>
                   </logicalFolder>
@@ -63,9 +40,6 @@
                     <itemPath>../src/config/default/driver/winc/include/drv/driver/ecc_types.h</itemPath>
                     <itemPath>../src/config/default/driver/winc/include/drv/driver/nmasic.h</itemPath>
                   </logicalFolder>
-                  <logicalFolder name="platform" displayName="platform" projectFiles="true">
-                    <itemPath>../src/config/default/driver/winc/include/drv/platform/platform.h</itemPath>
-                  </logicalFolder>
                   <logicalFolder name="socket" displayName="socket" projectFiles="true">
                     <itemPath>../src/config/default/driver/winc/include/drv/socket/netinet_in.h</itemPath>
                     <itemPath>../src/config/default/driver/winc/include/drv/socket/m2m_socket_host_if.h</itemPath>
@@ -86,7 +60,6 @@
                 <itemPath>../src/config/default/driver/winc/include/wdrv_winc_ssl.h</itemPath>
                 <itemPath>../src/config/default/driver/winc/include/wdrv_winc.h</itemPath>
                 <itemPath>../src/config/default/driver/winc/include/wdrv_winc_enterprise.h</itemPath>
-                <itemPath>../src/config/default/driver/winc/include/wdrv_winc_ble.h</itemPath>
                 <itemPath>../src/config/default/driver/winc/include/wdrv_winc_assoc.h</itemPath>
                 <itemPath>../src/config/default/driver/winc/include/wdrv_winc_custie.h</itemPath>
                 <itemPath>../src/config/default/driver/winc/include/wdrv_winc_client_api.h</itemPath>
@@ -248,23 +221,6 @@
                 </logicalFolder>
               </logicalFolder>
               <logicalFolder name="drv" displayName="drv" projectFiles="true">
-                <logicalFolder name="ble_stack" displayName="ble_stack" projectFiles="true">
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/event.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gatt_client.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gattc_task.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/interface.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gapc_task.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/error.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/wifiprov_task.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gatt_server.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gattm_task.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/htpt.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gapm_task.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/dbg_task.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/gap.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/security.c</itemPath>
-                  <itemPath>../src/config/default/driver/winc/drv/ble_stack/htpt_task.c</itemPath>
-                </logicalFolder>
                 <logicalFolder name="common" displayName="common" projectFiles="true">
                   <itemPath>../src/config/default/driver/winc/drv/common/nm_common.c</itemPath>
                 </logicalFolder>
@@ -279,9 +235,6 @@
                   <itemPath>../src/config/default/driver/winc/drv/driver/m2m_flash.c</itemPath>
                   <itemPath>../src/config/default/driver/winc/drv/driver/m2m_ssl.c</itemPath>
                   <itemPath>../src/config/default/driver/winc/drv/driver/nmasic.c</itemPath>
-                </logicalFolder>
-                <logicalFolder name="platform" displayName="platform" projectFiles="true">
-                  <itemPath>../src/config/default/driver/winc/drv/platform/platform.c</itemPath>
                 </logicalFolder>
                 <logicalFolder name="socket" displayName="socket" projectFiles="true">
                   <itemPath>../src/config/default/driver/winc/drv/socket/socket.c</itemPath>
@@ -304,7 +257,6 @@
               <itemPath>../src/config/default/driver/winc/wdrv_winc_wps.c</itemPath>
               <itemPath>../src/config/default/driver/winc/wdrv_winc_httpprovctx.c</itemPath>
               <itemPath>../src/config/default/driver/winc/wdrv_winc_softap.c</itemPath>
-              <itemPath>../src/config/default/driver/winc/wdrv_winc_ble.c</itemPath>
               <itemPath>../src/config/default/driver/winc/wdrv_winc_authctx.c</itemPath>
               <itemPath>../src/config/default/driver/winc/wdrv_winc_bssfind.c</itemPath>
               <itemPath>../src/config/default/driver/winc/wdrv_winc_custie.c</itemPath>

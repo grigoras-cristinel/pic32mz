@@ -8193,7 +8193,7 @@
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drvWifiWinc&gt;
 &lt;/drvWifiWinc&gt;
@@ -8225,7 +8225,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WDRV_WINC_BLE_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8238,7 +8238,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WDRV_WINC_BLE_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8277,7 +8277,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_ATTS_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8290,7 +8290,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_AT_BLE_API_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8303,7 +8303,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_BLE_DEVICE_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8316,7 +8316,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_CMN_DEFS_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8329,7 +8329,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_DBG_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8342,7 +8342,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_DBG_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8355,7 +8355,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_DISS_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8368,7 +8368,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_ERROR_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8381,7 +8381,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_ERROR_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8394,7 +8394,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_EVENT_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8407,7 +8407,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_EVENT_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8420,7 +8420,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GAPC_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8433,7 +8433,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GAPC_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8446,7 +8446,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GAPM_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8459,7 +8459,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GAPM_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8472,7 +8472,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GAP_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8485,7 +8485,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GATTC_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8498,7 +8498,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GATTC_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8511,7 +8511,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GATTM_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8524,7 +8524,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GATTM_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8537,7 +8537,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GATT_CLIENT_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8550,7 +8550,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_GATT_SERVER_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8563,7 +8563,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_HTPT_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8576,7 +8576,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_HTPT_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8589,7 +8589,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_HTPT_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8602,7 +8602,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_HTPT_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8615,7 +8615,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_INTERFACE_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8628,7 +8628,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_INTERFACE_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8641,7 +8641,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_LL_IF_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8654,7 +8654,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_PLATFORM_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8667,7 +8667,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_PLATFORM_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8680,7 +8680,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_PROFILES_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8693,7 +8693,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_SECURITY_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8706,7 +8706,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_SMPC_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8719,7 +8719,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_WIFIPROV_TASK_C&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -8732,7 +8732,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WIFI_BLUETOOTH_DRIVER_WIFIPROV_TASK_H&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -10110,7 +10110,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WINC_INC_PATH_DRV_AT_BLE_API&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -10123,7 +10123,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WINC_INC_PATH_DRV_BLE_STACK&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -10136,7 +10136,7 @@
   &lt;drvWifiWinc dnOrder=&quot;0&quot; id=&quot;WINC_INC_PATH_DRV_PLATFORM&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/drvWifiWinc&gt;
@@ -12166,7 +12166,7 @@
       </entry>
       <entry>
          <file>../src/config/default/configuration.h</file>
-         <hash>b04ff518145cfdd7177ff54db8c9b3bc88a9ab759ebcb07f5ce6e695ef028f2d</hash>
+         <hash>6eb1d30e5d00d6bf027a38dc0e715d6eb9acfcc8dee51e04109db1dcf6a3c781</hash>
       </entry>
       <entry>
          <file>../src/config/default/definitions.h</file>
@@ -12213,6 +12213,66 @@
          <hash>cbd3ce1848529897eccaa0ae9a58deb70aed23ee70c8d130c865825c225de53d</hash>
       </entry>
       <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/dbg_task.c</file>
+         <hash>7a5e902f91bfdb7df5d47749432e0da5d1edf8126e027cb21feacd98c7a1206c</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/error.c</file>
+         <hash>e66e6d10ec883f88654b0344f5f409382afc6d17c91946adbb1f1f77c94c08eb</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/event.c</file>
+         <hash>057077296bdee9e01800314bb1021cc9aa0858c0d148e0db1677dbfca587ebf7</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gap.c</file>
+         <hash>00a3e7d4afc77e09ff6edb52abafe0dfc03738703551a6de357af35726b2157b</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gapc_task.c</file>
+         <hash>c786ff328d733dd49fdf2c83f7200e32be6234717a8161b0f09d0b00231ed279</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gapm_task.c</file>
+         <hash>1cde38aba8b76accc4509dc8c56bd0b5f138900390e17aa1c8b7b293b9a4e3c6</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gatt_client.c</file>
+         <hash>3b7bab88831be6a5c9b877ee524f88372bfe369bdb3819401bc163daff4051bb</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gatt_server.c</file>
+         <hash>26513c0498a032f928842e8afe37d38b4129a63c6aff1336325a3bcf9d514048</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gattc_task.c</file>
+         <hash>230f0a5af7b3a97843ac85c44e4c858d116536e65d37414b6c667cf98676dad4</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/gattm_task.c</file>
+         <hash>e00323a9c9a7b6cfdb681ad99d8175ee199d024ae9c9701942b3d026a86d1d46</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/htpt.c</file>
+         <hash>902fb3f300288367cc5400402ad45fcf5d018c6d6cbe4144b79d48635b9857b4</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/htpt_task.c</file>
+         <hash>df50c05ef6cabef509737120360dd1f0ea35b2ec2a921253b743768e89cafea8</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/interface.c</file>
+         <hash>775c770ea410b5b8cbfa33f0ce3dc972cad9284c07abdfd2bf6db63e3bbc7358</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/security.c</file>
+         <hash>24832064faddc2f4869fef2b5d4fe0647c5b6ba785774de5760f2deb45274bc6</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/drv/ble_stack/wifiprov_task.c</file>
+         <hash>c4f152854e4426ca66a2376f5ff0bf78c4f5f71eb9ad8b062d88a8ea86e96536</hash>
+      </entry>
+      <entry>
          <file>../src/config/default/driver/winc/drv/common/nm_common.c</file>
          <hash>d0b8d40dc3e6eef8c4670bd078df3553c9f1d75a8adf034845332b2f08c7ba18</hash>
       </entry>
@@ -12257,6 +12317,10 @@
          <hash>d00a277a6cd84ca2dfb241df2ee57b667ac3504542ffcb3436b07eaedc8a6770</hash>
       </entry>
       <entry>
+         <file>../src/config/default/driver/winc/drv/platform/platform.c</file>
+         <hash>67963e87d285138841f002169353c08bfbee259cf65d5aedf91573258d3a5c69</hash>
+      </entry>
+      <entry>
          <file>../src/config/default/driver/winc/drv/socket/inet_addr.c</file>
          <hash>9e9c9205d0e0c56931a9e8bd4f4709f377691e9dfedc1d9b8b56887d6d0b2cc1</hash>
       </entry>
@@ -12279,6 +12343,82 @@
       <entry>
          <file>../src/config/default/driver/winc/include/dev/wdrv_winc_spi.h</file>
          <hash>8f0352418cb20cbfd71426ccea30c596df1cf0b602a730980486f9579202e095</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/at_ble_api/at_ble_api.h</file>
+         <hash>9ef1c5cd5a8f6bf7f28ac294f4dc68a9bcda67a36673841d2f519cfbc11aca9c</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/atts_task.h</file>
+         <hash>3ca2f5454ccd4256b1b0b86c2f767560e08c8816c972ff51624247c4922d5e82</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/ble_device.h</file>
+         <hash>3e240d77930d0878d0ceba424a0de4c0c2998a78b4604e128e697f60343d92b4</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/cmn_defs.h</file>
+         <hash>2ae1d5f362a4987f0fad1307cab46a983e001f649c775ec526f24b46bd6ef3c9</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/dbg_task.h</file>
+         <hash>27925a77417182a0fea4a8b2da16588cf649521766e4310ceccc863e5630f36e</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/diss_task.h</file>
+         <hash>b085e7ddceceee0018f0d78e71077865f80057e0a6a435172e8f5d171dd99994</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/error.h</file>
+         <hash>7fd0437fdd2d44bae2bf5fac42b8c2bf99f15c901b942351fe0e5657f58002bc</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/event.h</file>
+         <hash>f4b1b04cce73f7041f9a40db02ddd7828fdff5bc2679304771345de50d86615a</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/gapc_task.h</file>
+         <hash>ea4662e7a09d4ee1bcd2a960f35ed252af77ac20bc8d7a6e90ca8280f3b7c9a2</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/gapm_task.h</file>
+         <hash>5f8c5d7f033b332cc414b9d93ac42bf1680178591fa2db064239723142e3ba8d</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/gattc_task.h</file>
+         <hash>1e1a10cf6628ece521fdbce2fd6ddc8be039eda4ef7606d6cdebce8b042c4a39</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/gattm_task.h</file>
+         <hash>0eb76b403187907292b904d40e7b3c1bb4926314472d28faf70ea24ce3547d7f</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/htpt.h</file>
+         <hash>970f698d7980ae056125b18e4694bd44b51fd18371ba1819f26f112f30f120aa</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/htpt_task.h</file>
+         <hash>4f56df2753da9775d6a8c6ce8d6bdfe441369527f19e9cce71bcc53b44cd264f</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/interface.h</file>
+         <hash>0af5efe1a65ac34a965e8f82c23ac44f70f4600c49fe6baffb8335bc618ac444</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/ll_if.h</file>
+         <hash>5d9a6a0c850da52cde42c7b47181cce3c32755ad535a515a3ac5a74f3ab26908</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/profiles.h</file>
+         <hash>11ffdfc96c4a3105466c8f1777768342f5941252b3b6b8b70cb5a2de385795b4</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/smpc_task.h</file>
+         <hash>57eb7e0f6d6c877bb1d2ba220e670d81226590ec6e3f19f307d595c3b788b007</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/drv/ble_stack/wifiprov_task.h</file>
+         <hash>5cfdb5ba1345d37502b6e918bb57cc95dbc38f7b770c7cf327348cd90022dc27</hash>
       </entry>
       <entry>
          <file>../src/config/default/driver/winc/include/drv/bsp/nm_bsp.h</file>
@@ -12341,6 +12481,10 @@
          <hash>c1af4c4e0b01a2b755f85b12305f2115a11aa711b691356976680df53c556bd6</hash>
       </entry>
       <entry>
+         <file>../src/config/default/driver/winc/include/drv/platform/platform.h</file>
+         <hash>09aced87bfc4a0c15102421c583212ed14538d0ae85be580ecc3fac20a645a35</hash>
+      </entry>
+      <entry>
          <file>../src/config/default/driver/winc/include/drv/socket/m2m_socket_host_if.h</file>
          <hash>133411317089d9ddde78e542b539a84f51c5539d5760deecc85eb2827048bb7b</hash>
       </entry>
@@ -12375,6 +12519,10 @@
       <entry>
          <file>../src/config/default/driver/winc/include/wdrv_winc_authctx.h</file>
          <hash>3b40acf5d56e6f738c40322ccce49a3d24ce0b0f7e8c79ae993c2af2f431aef8</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/include/wdrv_winc_ble.h</file>
+         <hash>169933acd795da1633b9d734e803260d01ff36513ad7289f93a05077fa1006ec</hash>
       </entry>
       <entry>
          <file>../src/config/default/driver/winc/include/wdrv_winc_bssctx.h</file>
@@ -12455,6 +12603,10 @@
       <entry>
          <file>../src/config/default/driver/winc/wdrv_winc_authctx.c</file>
          <hash>5e157361ad36c27ff2478ba5cede190ac291b00a88c92a97aaca78fdb8cb70f5</hash>
+      </entry>
+      <entry>
+         <file>../src/config/default/driver/winc/wdrv_winc_ble.c</file>
+         <hash>957211eda5a202a9ed4309089d628d0d1d8b66713c2e4775a8a7f2d711f82858</hash>
       </entry>
       <entry>
          <file>../src/config/default/driver/winc/wdrv_winc_bssctx.c</file>

@@ -126,7 +126,7 @@ void APP_Tasks ( void )
              if (SYS_STATUS_READY == WDRV_WINC_Status(sysObj.drvWifiWinc))
             {
                 appData.state = APP_STATE_WDRV_INIT_READY;
-                SYS_CONSOLE_Print(appData.consoleHandle, "Print ce \r\n");
+                SYS_CONSOLE_Print(appData.consoleHandle, "Print daca status este ready \r\n");
             }
 
             break;

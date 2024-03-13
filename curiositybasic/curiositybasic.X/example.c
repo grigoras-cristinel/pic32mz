@@ -51,9 +51,9 @@
 
 extern APP_DATA appData;
 
-#define WLAN_SSID           "MicrochipDemoAp"
-#define WLAN_AUTH_WPA_PSK    M2M_WIFI_SEC_WPA_PSK
-#define WLAN_PSK            "12345678"
+#define WLAN_SSID           "27ap6"
+#define WLAN_AUTH_WPA_PSK   M2M_WIFI_SEC_WPA_PSK
+#define WLAN_PSK            "grigoras27"
 
 //#define ICMP_ECHO_TARGET    "192.168.1.1"
 //#define ICMP_ECHO_COUNT     3
@@ -171,9 +171,10 @@ void APP_ExampleTasks(DRV_HANDLE handle)
             WDRV_WINC_IPUseDHCPSet(handle, &APP_ExampleDHCPAddressEventCallback);
 
             /* Start a BSS find operation on all channels. */
-
+            SYS_CONSOLE_Print(appData.consoleHandle, "First scan \r\n");
             if (WDRV_WINC_STATUS_OK == WDRV_WINC_BSSFindFirst(handle, WDRV_WINC_ALL_CHANNELS, true, NULL, NULL))
             {
+                SYS_CONSOLE_Print(appData.consoleHandle, "First scan ended\r\n");    
                 state = EXAMP_STATE_SCANNING;
                 foundBSS = false;
             }
