@@ -73,6 +73,8 @@ void TIMER_9_Handler (void);
 void SPI1_RX_Handler (void);
 void SPI1_TX_Handler (void);
 void CHANGE_NOTICE_G_Handler (void);
+void DMA0_Handler (void);
+void DMA1_Handler (void);
 void UART2_FAULT_Handler (void);
 void UART2_RX_Handler (void);
 void UART2_TX_Handler (void);
@@ -113,6 +115,16 @@ void SPI1_TX_Handler (void)
 void CHANGE_NOTICE_G_Handler (void)
 {
     CHANGE_NOTICE_G_InterruptHandler();
+}
+
+void DMA0_Handler (void)
+{
+    DMA0_InterruptHandler();
+}
+
+void DMA1_Handler (void)
+{
+    DMA1_InterruptHandler();
 }
 
 void UART2_FAULT_Handler (void)
