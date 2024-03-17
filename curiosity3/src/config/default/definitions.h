@@ -52,7 +52,6 @@
 #include "peripheral/clk/plib_clk.h"
 #include "peripheral/gpio/plib_gpio.h"
 #include "peripheral/evic/plib_evic.h"
-#include "peripheral/dmac/plib_dmac.h"
 #include "system/time/sys_time.h"
 #include "peripheral/coretimer/plib_coretimer.h"
 #include "peripheral/uart/plib_uart2.h"
@@ -204,9 +203,9 @@ typedef struct
     /* SPI0 Driver Object */
     SYS_MODULE_OBJ drvSPI0;
 
+    SYS_MODULE_OBJ  sysTime;
     SYS_MODULE_OBJ  sysDebug;
 
-    SYS_MODULE_OBJ  sysTime;
     SYS_MODULE_OBJ  sysConsole0;
 
 

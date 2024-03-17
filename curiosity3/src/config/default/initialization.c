@@ -170,10 +170,6 @@ static const DRV_SPI_INTERRUPT_SOURCES drvSPI0InterruptSources =
     .intSources.multi.spiTxReadyInt      = -1,
     .intSources.multi.spiTxCompleteInt   = (int32_t)_SPI1_TX_VECTOR,
     .intSources.multi.spiRxInt           = (int32_t)_SPI1_RX_VECTOR,
-    /* DMA Tx interrupt line */
-    .intSources.multi.dmaTxChannelInt      = (int32_t)_DMA0_VECTOR,
-    /* DMA Rx interrupt line */
-    .intSources.multi.dmaRxChannelInt      = (int32_t)_DMA1_VECTOR,
 };
 
 /* SPI Driver Initialization Data */
@@ -194,17 +190,6 @@ static const DRV_SPI_INIT drvSPI0InitData =
     /* SPI Client Objects Pool */
     .clientObjPool = (uintptr_t)&drvSPI0ClientObjPool[0],
 
-    /* DMA Channel for Transmit */
-    .dmaChannelTransmit = DRV_SPI_XMIT_DMA_CH_IDX0,
-
-    /* DMA Channel for Receive */
-    .dmaChannelReceive  = DRV_SPI_RCV_DMA_CH_IDX0,
-
-    /* SPI Transmit Register */
-    .spiTransmitAddress =  (void *)&(SPI1BUF),
-
-    /* SPI Receive Register */
-    .spiReceiveAddress  = (void *)&(SPI1BUF),
 
     /* SPI Queue Size */
     .transferObjPoolSize = DRV_SPI_QUEUE_SIZE_IDX0,
@@ -239,15 +224,6 @@ SYSTEM_OBJECTS sysObj;
 // Section: System Initialization
 // *****************************************************************************
 // *****************************************************************************
-
-static const SYS_DEBUG_INIT debugInit =
-{
-    .moduleInit = {0},
-    .errorLevel = SYS_DEBUG_GLOBAL_ERROR_LEVEL,
-    .consoleIndex = 0,
-};
-
-
 // <editor-fold defaultstate="collapsed" desc="SYS_TIME Initialization Data">
 
 static const SYS_TIME_PLIB_INTERFACE sysTimePlibAPI = {
@@ -267,6 +243,15 @@ static const SYS_TIME_INIT sysTimeInitData =
 };
 
 // </editor-fold>
+
+static const SYS_DEBUG_INIT debugInit =
+{
+    .moduleInit = {0},
+    .errorLevel = SYS_DEBUG_GLOBAL_ERROR_LEVEL,
+    .consoleIndex = 0,
+};
+
+
 // <editor-fold defaultstate="collapsed" desc="SYS_CONSOLE Instance 0 Initialization Data">
 
 
@@ -337,8 +322,6 @@ void SYS_Initialize ( void* data )
 
 	GPIO_Initialize();
 
-    DMAC_Initialize();
-
     CORETIMER_Initialize();
 	UART2_Initialize();
 
@@ -362,16 +345,16 @@ void SYS_Initialize ( void* data )
 
 
     /* MISRA C-2012 Rule 11.3, 11.8 deviated below. Deviation record ID -  
-     H3_MISRAC_2012_R_11_3_DR_1 & H3_MISRAC_2012_R_11_8_DR_1*/
-        
-    sysObj.sysDebug = SYS_DEBUG_Initialize(SYS_DEBUG_INDEX_0, (SYS_MODULE_INIT*)&debugInit);
-
-    /* MISRAC 2012 deviation block end */
-    /* MISRA C-2012 Rule 11.3, 11.8 deviated below. Deviation record ID -  
     H3_MISRAC_2012_R_11_3_DR_1 & H3_MISRAC_2012_R_11_8_DR_1*/
         
     sysObj.sysTime = SYS_TIME_Initialize(SYS_TIME_INDEX_0, (SYS_MODULE_INIT *)&sysTimeInitData);
     
+    /* MISRAC 2012 deviation block end */
+    /* MISRA C-2012 Rule 11.3, 11.8 deviated below. Deviation record ID -  
+     H3_MISRAC_2012_R_11_3_DR_1 & H3_MISRAC_2012_R_11_8_DR_1*/
+        
+    sysObj.sysDebug = SYS_DEBUG_Initialize(SYS_DEBUG_INDEX_0, (SYS_MODULE_INIT*)&debugInit);
+
     /* MISRAC 2012 deviation block end */
     /* MISRA C-2012 Rule 11.3, 11.8 deviated below. Deviation record ID -  
      H3_MISRAC_2012_R_11_3_DR_1 & H3_MISRAC_2012_R_11_8_DR_1*/

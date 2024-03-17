@@ -5539,7 +5539,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DCH0_ECON_SIRQEN_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5550,7 +5550,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DCH0_ECON_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;28432&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5583,7 +5583,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DCH1_ECON_SIRQEN_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5594,7 +5594,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DCH1_ECON_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;28176&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5618,7 +5618,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA0_INTERRUPT_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5629,7 +5629,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA0_INTERRUPT_ENABLE_UPDATE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5640,7 +5640,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA0_INTERRUPT_HANDLER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA0_InterruptHandler&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA0_Handler&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5651,7 +5651,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA0_INTERRUPT_HANDLER_LOCK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5662,7 +5662,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA1_INTERRUPT_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5673,7 +5673,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA1_INTERRUPT_ENABLE_UPDATE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5684,7 +5684,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA1_INTERRUPT_HANDLER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA1_InterruptHandler&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA1_Handler&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5695,7 +5695,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA1_INTERRUPT_HANDLER_LOCK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5724,7 +5724,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_CHAN0_ENBL&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5735,7 +5735,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_CHAN1_ENBL&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5758,7 +5758,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_HEADER&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/core&gt;
@@ -5781,7 +5781,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_REQUEST_0_PERID_LOCK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5792,7 +5792,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_REQUEST_0_SOURCE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;SPI1_TX&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;Software Trigger&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5803,7 +5803,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_REQUEST_0_SOURCE_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;111&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5814,7 +5814,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_REQUEST_1_PERID_LOCK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5825,7 +5825,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_REQUEST_1_SOURCE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;SPI1_RX&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;Software Trigger&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5836,7 +5836,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_REQUEST_1_SOURCE_VALUE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;110&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5848,7 +5848,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_SOURCE&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/core&gt;
@@ -5861,7 +5861,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_SYS_DEF&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/core&gt;
@@ -5874,7 +5874,7 @@
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMAC_SYS_INIT&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;enabled&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
   &lt;/core&gt;
@@ -5886,7 +5886,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA_CH_FOR_SPI1_Receive&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;1&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;-1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5897,7 +5897,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA_CH_FOR_SPI1_Transmit&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;0&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;-1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5908,7 +5908,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA_CH_NEEDED_FOR_SPI1_Receive&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5919,7 +5919,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA_CH_NEEDED_FOR_SPI1_Transmit&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -5974,7 +5974,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;DMA_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6315,7 +6315,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EVIC_134_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6326,7 +6326,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EVIC_134_HANDLER_LOCK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6337,7 +6337,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EVIC_134_INTERRUPT_HANDLER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA0_InterruptHandler&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA0_Handler&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6348,7 +6348,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EVIC_135_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6359,7 +6359,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EVIC_135_HANDLER_LOCK&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -6370,7 +6370,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;core&gt;
   &lt;core dnOrder=&quot;0&quot; id=&quot;EVIC_135_INTERRUPT_HANDLER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA1_InterruptHandler&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;core&quot; value=&quot;DMA1_Handler&quot;/&gt;
     &lt;/Values&gt;
   &lt;/core&gt;
 &lt;/core&gt;
@@ -11300,7 +11300,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_spi&gt;
   &lt;drv_spi dnOrder=&quot;0&quot; id=&quot;DRV_SPI_SYS_DMA_CODE_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi&gt;
 &lt;/drv_spi&gt;
@@ -11311,7 +11311,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_spi&gt;
   &lt;drv_spi dnOrder=&quot;0&quot; id=&quot;DRV_SPI_SYS_DMA_ENABLE&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi&gt;
 &lt;/drv_spi&gt;
@@ -11322,7 +11322,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_spi&gt;
   &lt;drv_spi dnOrder=&quot;0&quot; id=&quot;DRV_SPI_SYS_DMA_ENABLE_CNTR&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi&quot; value=&quot;1&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi&quot; value=&quot;0&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi&gt;
 &lt;/drv_spi&gt;
@@ -11415,11 +11415,11 @@
   &lt;drv_spi_0 dnOrder=&quot;0&quot; id=&quot;DRV_SPI_RX_DMA_CHANNEL&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi_0&quot; value=&quot;1&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi_0&quot; value=&quot;-1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi_0&gt;
 &lt;/drv_spi_0&gt;
@@ -11431,11 +11431,11 @@
   &lt;drv_spi_0 dnOrder=&quot;0&quot; id=&quot;DRV_SPI_TX_DMA_CHANNEL&quot;&gt;
     &lt;Attributes dnOrder=&quot;0&quot;&gt;
       &lt;Boolean dnOrder=&quot;0&quot; id=&quot;visible&quot;&gt;
-        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;false&lt;/Value&gt;
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi_0&quot; value=&quot;0&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi_0&quot; value=&quot;-1&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi_0&gt;
 &lt;/drv_spi_0&gt;
@@ -11451,7 +11451,7 @@
       &lt;/Boolean&gt;
     &lt;/Attributes&gt;
     &lt;Values dnOrder=&quot;1&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi_0&gt;
 &lt;/drv_spi_0&gt;
@@ -11462,7 +11462,7 @@
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;drv_spi_0&gt;
   &lt;drv_spi_0 dnOrder=&quot;0&quot; id=&quot;DRV_SPI_TX_RX_DMA_EN&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi_0&quot; value=&quot;true&quot;/&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;drv_spi_0&quot; value=&quot;false&quot;/&gt;
     &lt;/Values&gt;
   &lt;/drv_spi_0&gt;
 &lt;/drv_spi_0&gt;
@@ -13482,11 +13482,11 @@
       </entry>
       <entry>
          <file>../src/config/default/configuration.h</file>
-         <hash>c0a6345bcef06b2b246457abc662c3de5d885b5cbd46a9551da1e06282a46b76</hash>
+         <hash>41f8bf6d70edb0dc098f00a9e83ceb298f3a3d1cfc13144bdd8ce42ed629f3fb</hash>
       </entry>
       <entry>
          <file>../src/config/default/definitions.h</file>
-         <hash>8926bd41175b5b86b0c7f7cc32b636579b82b5b82dd00b09dd9da0425ef36fc6</hash>
+         <hash>d6dab1c68533bfd82dd77d7c39a57fb80867602f738640b0f697d325c987ded2</hash>
       </entry>
       <entry>
          <file>../src/config/default/device.h</file>
@@ -13506,15 +13506,15 @@
       </entry>
       <entry>
          <file>../src/config/default/driver/spi/drv_spi_definitions.h</file>
-         <hash>ba06e15b49c559da9db2e2c1756bf29738c224a13a47fa77cd2722267fe3e68f</hash>
+         <hash>92f0a3e5c52999719e33e290cd002b19a2bef4f1f003b80f6373d2ebaa1c07f3</hash>
       </entry>
       <entry>
          <file>../src/config/default/driver/spi/src/drv_spi.c</file>
-         <hash>1366b40d511a2d9f1bd8036d33afef721e6b26e70b532b1395be1b13f1019c36</hash>
+         <hash>cb8ca253da0576e64ca7ad7d64c4a7a82c6b88fb5d51736469818e0999bc6acd</hash>
       </entry>
       <entry>
          <file>../src/config/default/driver/spi/src/drv_spi_local.h</file>
-         <hash>da64dbcce9bce2318aa28a15329ca8d8426e435993923aed858c933b7d56245d</hash>
+         <hash>d19b6335d37bb86224a50feaac9678342de36b4c6649ca29b47caa39cf4e11fd</hash>
       </entry>
       <entry>
          <file>../src/config/default/driver/winc/dev/gpio/wdrv_winc_eint.c</file>
@@ -13986,19 +13986,19 @@
       </entry>
       <entry>
          <file>../src/config/default/initialization.c</file>
-         <hash>4958ed6cbba87d7f968c9bff7b18c1f9f766d0149140e03701709054e8dcdec0</hash>
+         <hash>308dfb2b988c3eaacf7642eaaacf4213baf8f63f62352fde2093db2030ee509a</hash>
       </entry>
       <entry>
          <file>../src/config/default/interrupts.c</file>
-         <hash>076d0284ab203548c8de4043aab30e66641544861a12901c1f44c6037a3ef706</hash>
+         <hash>5199183f131e4b8ca5a1605318bbd27c25abefe3e213d58fd878b35e4fc6b256</hash>
       </entry>
       <entry>
          <file>../src/config/default/interrupts.h</file>
-         <hash>d1ef673f3480b8c42fa996fb3ee6df01a49384a8094cd57682d1db8e0475a357</hash>
+         <hash>923830c9e36288d1c54509c0bd15956052f05cc0b586f40d066fec8803651e11</hash>
       </entry>
       <entry>
          <file>../src/config/default/interrupts_a.S</file>
-         <hash>95fcf30f022b7171d9264dc5465125284222f81bbba06b2e3f3892b0c24f2241</hash>
+         <hash>dd52ed1998f3ef6e11d6974a64a9c8e913aa200c7ed12c9fd80942d76cffbb99</hash>
       </entry>
       <entry>
          <file>../src/config/default/osal/osal.h</file>
@@ -14037,16 +14037,8 @@
          <hash>d88929a1d7d6d0428c517cb789359c574c42d52c3c8a04bb267990255ad81706</hash>
       </entry>
       <entry>
-         <file>../src/config/default/peripheral/dmac/plib_dmac.c</file>
-         <hash>20d2e543858a5eed51dc75eebd945e677848d2555d4889293ed8a592b32ee0ad</hash>
-      </entry>
-      <entry>
-         <file>../src/config/default/peripheral/dmac/plib_dmac.h</file>
-         <hash>78b9533671371600d12031eb6280ef51c292677cc636c809bb1b16ab772a4f8d</hash>
-      </entry>
-      <entry>
          <file>../src/config/default/peripheral/evic/plib_evic.c</file>
-         <hash>c8a0efa4c32aeb447163e8e878c832b8c4439e1989404eaf39fcd2eee6c4cae4</hash>
+         <hash>0002776b5227b83c1684cb0a1446b423ba1868c3b4c25708f2b2cf4374be7900</hash>
       </entry>
       <entry>
          <file>../src/config/default/peripheral/evic/plib_evic.h</file>
@@ -14142,7 +14134,7 @@
       </entry>
       <entry>
          <file>../src/config/default/system/dma/sys_dma.c</file>
-         <hash>6697075e2dd0c93e8af4afb996ae9c70dd8fac27d592a671130f32a9b8649b0b</hash>
+         <hash>772a0f1332b9de8ac954f390a0a69dad05fe6976d2d6fbc3de30a50021eb148f</hash>
       </entry>
       <entry>
          <file>../src/config/default/system/dma/sys_dma.h</file>
@@ -14150,7 +14142,7 @@
       </entry>
       <entry>
          <file>../src/config/default/system/dma/sys_dma_mapping.h</file>
-         <hash>834d16463a4ad2643f1b3c521a9ef3a854d9f10895a4197392047f8e582e2f73</hash>
+         <hash>edbc703ae272ef9118fece15f4e08a9dc755cc797448e96e34d8404e7089b42f</hash>
       </entry>
       <entry>
          <file>../src/config/default/system/int/src/sys_int.c</file>
