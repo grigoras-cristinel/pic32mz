@@ -32,6 +32,7 @@
 #include <stddef.h>
 #include <stdlib.h>
 #include "configuration.h"
+#include "definitions.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus  // Provide C++ Compatibility
@@ -46,6 +47,11 @@ extern "C" {
 // Section: Type Definitions
 // *****************************************************************************
 // *****************************************************************************
+
+#define WLAN_SSID           "27ap6w24"//"MicrochipDemoAp"
+#define WLAN_AUTH_WPA_PSK
+#define WLAN_PSK            "grigoras27"
+
 
 // *****************************************************************************
 /* Application states
@@ -62,7 +68,8 @@ typedef enum
 {
     /* Application's state machine's initial state. */
     APPWIFI_STATE_INIT=0,
-    APPWIFI_STATE_SERVICE_TASKS,
+    APPWIFI_STATE_WDRV_INIT_READY,
+    APPWIFI_STATE_WDRV_OPEN,
     /* TODO: Define states used by the application state machine. */
 
 } APPWIFI_STATES;
@@ -85,7 +92,7 @@ typedef struct
 {
     /* The application's current state */
     APPWIFI_STATES state;
-
+    SYS_CONSOLE_HANDLE consoleHandle;
     /* TODO: Define any additional data used by the application. */
 
 } APPWIFI_DATA;

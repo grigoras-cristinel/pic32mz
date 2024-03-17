@@ -395,6 +395,7 @@
       <itemPath>../src/appwifi.c</itemPath>
       <itemPath>../src/main.c</itemPath>
       <itemPath>app.c</itemPath>
+      <itemPath>example.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>

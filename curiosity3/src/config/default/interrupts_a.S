@@ -88,6 +88,24 @@ IntVectorTIMER_9_Handler:
     nop
     portRESTORE_CONTEXT
     .end   IntVectorTIMER_9_Handler
+    .extern  SPI1_FAULT_Handler
+
+    .section   .vector_109,code, keep
+    .equ     __vector_dispatch_109, IntVectorSPI1_FAULT_Handler
+    .global  __vector_dispatch_109
+    .set     nomicromips
+    .set     noreorder
+    .set     nomips16
+    .set     noat
+    .ent  IntVectorSPI1_FAULT_Handler
+
+IntVectorSPI1_FAULT_Handler:
+    portSAVE_CONTEXT
+    la    s6,  SPI1_FAULT_Handler
+    jalr  s6
+    nop
+    portRESTORE_CONTEXT
+    .end   IntVectorSPI1_FAULT_Handler
     .extern  SPI1_RX_Handler
 
     .section   .vector_110,code, keep

@@ -28,12 +28,24 @@
 // *****************************************************************************
 
 #include "appwifi.h"
+#include "wdrv_winc_client_api.h"
 
 // *****************************************************************************
 // *****************************************************************************
 // Section: Global Data Definitions
 // *****************************************************************************
 // *****************************************************************************
+
+
+#define WLAN_CHANNEL        WDRV_WINC_ALL_CHANNELS 
+#define WLAN_AUTH           WDRV_WINC_AUTH_TYPE_WPA_PSK 
+
+
+
+void APP_ExampleInitialize(DRV_HANDLE handle);
+void APP_ExampleTasks(DRV_HANDLE handle);
+
+static DRV_HANDLE wdrvHandle;
 
 // *****************************************************************************
 /* Application Data
@@ -42,7 +54,7 @@
     Holds application data
 
   Description:
-    This structure holds the application's data.
+    This structure holds the application's data. 
 
   Remarks:
     This structure should be initialized by the APPWIFI_Initialize function.
@@ -110,33 +122,40 @@ void APPWIFI_Initialize ( void )
 void APPWIFI_Tasks ( void )
 {
 
-    /* Check the application's current state. */
-    switch ( appwifiData.state )
+   /* Check the application's current state. */
+    switch(appwifiData.state)
     {
-        /* Application's initial state. */
         case APPWIFI_STATE_INIT:
         {
-            bool appInitialized = true;
+            /* Get handles to both the USB console instances */
+            appwifiData.consoleHandle = SYS_CONSOLE_HandleGet(SYS_CONSOLE_INDEX_0);
 
-
-            if (appInitialized)
+            if (SYS_STATUS_READY == WDRV_WINC_Status(sysObj.drvWifiWinc))
             {
+                appwifiData.state = APPWIFI_STATE_WDRV_INIT_READY;
+            }
 
-                appwifiData.state = APPWIFI_STATE_SERVICE_TASKS;
+            break;
+        }
+
+        case APPWIFI_STATE_WDRV_INIT_READY:
+        {
+            wdrvHandle = WDRV_WINC_Open(0, 0);
+
+            if (DRV_HANDLE_INVALID != wdrvHandle)
+            {
+                APP_ExampleInitialize(wdrvHandle);
+                appwifiData.state = APPWIFI_STATE_WDRV_OPEN;
             }
             break;
         }
 
-        case APPWIFI_STATE_SERVICE_TASKS:
+        case APPWIFI_STATE_WDRV_OPEN:
         {
-
+            APP_ExampleTasks(wdrvHandle);
             break;
         }
 
-        /* TODO: implement your application state machine.*/
-
-
-        /* The default state should never be executed. */
         default:
         {
             /* TODO: Handle error in application's state machine. */

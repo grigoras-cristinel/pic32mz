@@ -69,6 +69,7 @@
 // *****************************************************************************
 void CORE_TIMER_Handler (void);
 void TIMER_9_Handler (void);
+void SPI1_FAULT_Handler (void);
 void SPI1_RX_Handler (void);
 void SPI1_TX_Handler (void);
 void CHANGE_NOTICE_F_Handler (void);
@@ -93,6 +94,10 @@ void CORE_TIMER_Handler (void)
 void TIMER_9_Handler (void)
 {
     TIMER_9_InterruptHandler();
+}
+
+void SPI1_FAULT_Handler (void)
+{
 }
 
 void SPI1_RX_Handler (void)
